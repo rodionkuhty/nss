@@ -1,0 +1,780 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    min-width: 1920px;
+    /*width: 100vw;*/
+    min-height: 800px;
+    margin: 0 auto;
+}
+.green_plate{
+    /*width: 100%;*/
+    width: 1920px;
+    height: 193px;
+    background-image: url("pics/rozh-kolosya-pole-zolotistye-nebo-selskoe-hozyaystvo-947-3840x2400.png");
+    background-color: rgba(102, 255, 153, 1);
+    position: relative;
+}
+.logo{
+    width: 285px;
+    height: 194px;
+    background-image: url("pics/logo.png");
+    position: absolute;
+    top:31px;
+    left: 375px;
+    z-index: 2;
+}
+.menu{
+    min-width: 1920px;
+    height: 32px;
+    opacity: 0.7;
+    background-color: #fdfdfd;
+    /*position: absolute;*/
+    z-index: 1;
+    margin-top: -16px;
+}
+.menu li{
+    float: left;
+    padding-right: 29px;
+    position: relative;
+    left: 660px;
+    top: -4px;
+
+}
+.menu li a{
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.7s;
+}
+.menu li a:hover{
+    /*font-weight: 700;*/
+    font-weight: bolder;
+    color: black;
+}
+.menu li  i{
+    padding-right: 6px;
+    color: gray;
+}
+.main_pic{
+    width: 1920px;
+    height: 761px;
+    background-image: url("pics/main_pic_main_page.png");
+    margin-top: -226px;
+}
+.header_text{
+    width: 837px;
+    height: 118px;
+    position: absolute;
+    top:51px;
+    left: 679px;
+}
+.gos{
+    width: 255px;
+    height: 81px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.organization{
+    width: 629px;
+    height: 23px;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    /*line-height: 42px;*/
+    text-transform: uppercase;
+}
+.email{
+    position: absolute;
+    width: 165px;
+    height: 17px;
+    top: 0;
+    left: 347px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    /*line-height: 42px;*/
+    padding-top: 0;
+}
+.address{
+    position: absolute;
+    width: 317px;
+    height: 31px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    /*line-height: 18px;*/
+    top: 37px;
+    left: 347px;
+}
+.phone_number{
+    position: absolute;
+    top:0;
+    left: 693px;
+    width: 150px;
+    height: 17px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    /*line-height: 42px;*/
+}
+.phone_number span{
+    font-weight: 700;
+}
+.work_time{
+    position: absolute;
+    top: 36px;
+    left: 693px;
+    width: 143px;
+    height: 31px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.icon_section_white{
+    min-width: 1920px;
+    height:222px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.icon_place{
+    width: 1171px;
+    height:106px;
+    position: absolute;
+    top: 820px;
+    left: 375px;
+}
+.we_are_manufactures{
+    width: 326px;
+    height: 106px;
+    background-image: url("pics/manufactures.png");
+    background-repeat: no-repeat;
+    float: left;
+}
+.we_are_manufactures .head_manufactures {
+    padding-left: 120px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 42px
+}
+.we_are_manufactures .text_manufactures{
+    padding-left: 120px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.ecology{
+    width:356px;
+    height: 106px;
+    background-image: url("pics/ecology.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 390px;
+}
+.ecology .head_ecology{
+    padding-left: 122px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.ecology .text_ecology{
+    padding-left: 122px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.research{
+    width:387px;
+    height: 106px;
+    background-image: url("pics/flower.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 784px;
+}
+.research .head_research{
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 42px;
+    padding-left: 125px;
+}
+.research .text_research{
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-left: 125px;
+}
+.org_work{
+    width: 619px;
+    height: 198px;
+    /*box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.1);*/
+    /*background-color: #ffffff;*/
+    background-image: url("pics/modal1.png");
+    position: absolute;
+    top: 218px;
+    left: 800px;
+    transition: all .6s;
+    /*display: none;*/
+    opacity: 0;
+    z-index: 10;
+}
+.left_text{
+    width:258px;
+    height:114px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    top: 46px;
+    left: 31px;
+}
+.show{
+    display: block;
+    opacity: 1;
+}
+.left_first_text{
+    width: 178px;
+    height: 31px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+    /* Text style for "Отдел техн" */
+    letter-spacing: 0.35px;
+    float: left;
+}
+.left_first_text a{
+    text-decoration: underline;
+    color: #000;
+}
+.left_second_text{
+    width: 257px;
+    height: 30px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    /* Text style for "Отдел сель" */
+    letter-spacing: 0.35px;
+    padding-top: 49px;
+}
+.left_second_text a{
+    text-decoration: none;
+    color: #000;
+}
+.left_thirt_text{
+    width: 211px;
+    height: 13px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    /* Text style for "Участок па" */
+    letter-spacing: 0.35px;
+    padding-top: 22px;
+}
+.left_thirt_text a{
+    text-decoration: none;
+    color: #000;
+}
+.right_text{
+    width:211px;
+    height: 114px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    top:46px;
+    left: 329px;
+   
+}
+.right_first_text{
+    width: 176px;
+    height: 30px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    /* Text style for "Отдел техн" */
+    letter-spacing: 0.35px;
+}
+.right_first_text a{
+    text-decoration: none;
+    color: #000;
+}
+.right_second_text{
+    width: 211px;
+    height: 13px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    /* Text style for "Участок па" */
+    letter-spacing: 0.35px;
+    position: absolute;
+    bottom: 0;
+}
+.right_second_text a{
+    text-decoration: none;
+    color: #000;
+}
+/*About Page*/
+.about_page_background{
+    width:1920px;
+    height:1629px;
+    background-image: url("pics/oboi-na-stol.com-209639-peyzazhi-pole-doroga-raps-nebo-oblaka-dal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+    position: relative;
+}
+.about_page_white{
+    width:1110px;
+    height:1334px;
+    background-color: #fdfdfd;
+    /*margin: -1586px 405px 0 405px;*/
+    z-index: 5;
+    position: absolute;
+    top: 255px;
+    left: 405px;
+}
+.about_page_bread_crumbs{
+    width: 98px;
+    height: 13px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    /* Text style for "Главная" */
+    letter-spacing: 0.4px;
+    position: absolute;
+    top: 30px;
+    left:65px;
+    float: left;
+}
+.about_page_bread_crumbs i{
+    padding-left: 16px;
+}
+.about_page_bread_crumbs a{
+    color: #000;
+    text-decoration: none;
+}
+.about_header{
+    width: 170px;
+    height: 19px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 64px;
+    left: 65px;
+}
+.about_page_text{
+    /* Style for "Государств" */
+    width: 947px;
+    height: 410px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    position: absolute;
+    top: 104px;
+    left:63px;
+}
+.about_page_photo{
+    width: 980px;
+    height: 733px;
+    background-image: url("pics/DSCN1333.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 551px;
+    left: 65px;
+}
+/*Elec page*/
+.elec_page_background{
+    width: 1920px;
+    min-height:920px;
+    background-image: url("pics/oboi-na-stol.com-209639-peyzazhi-pole-doroga-raps-nebo-oblaka-dal.jpg");
+    background-size: cover;
+    filter: blur(5px);
+}
+.elec_page_white{
+    /* Style for "bg" */
+    width: 1110px;
+    height: 625px;
+    background-color: #fdfdfd;
+    position: absolute;
+    top: 255px;
+    left: 405px;
+}
+.elec_page_bread_crumbs{
+    width:98px;
+    height:13px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    /* Text style for "Главная" */
+    letter-spacing: 0.4px;
+    position: absolute;
+    /*top: 40px;*/
+    top:30px;
+    left: 65px;
+    float: left;
+}
+.elec_page_bread_crumbs i{
+    padding-left: 16px;
+}
+.elec_page_bread_crumbs a {
+    text-decoration: none;
+    color: #000;
+}
+.elec_page_header_text{
+    width: 568px;
+    height: 23px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 72px;
+    left: 65px;
+}
+.elec_page_form{
+    width:451px;
+    height:441px;
+    position: absolute;
+    top: 134px;
+    left: 64px;
+    /*border: 1px solid red;*/
+}
+.elec_page_form #surname_style{
+    width: 78px;
+    height: 12px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.elec_page_form #surname{
+    /* Style for "Rectangle" */
+    width: 210px;
+    height: 40px;
+    border: 1px solid #c8c8c8;
+    position: absolute;
+    top:21px;
+    left: 0px;
+}
+.elec_page_form #email_style{
+    width: 78px;
+    height: 12px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    top: 0px;
+    left: 241px;
+}
+.elec_page_form #email{
+    width: 210px;
+    height: 40px;
+    border: 1px solid #c8c8c8;
+    position: absolute;
+    top:21px;
+    left: 241px;
+}
+.elec_page_form #name_style{
+    width: 78px;
+    height: 12px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    top: 80px;
+    left: 1px;
+}
+.elec_page_form #name{
+    width: 210px;
+    height: 40px;
+    border: 1px solid #c8c8c8;
+    position: absolute;
+    top:101px;
+    left: 1px;
+}
+.elec_page_form #address_style{
+    width: 118px;
+    height: 12px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    top: 80px;
+    left: 241px;
+}
+.elec_page_form #address{
+    width: 210px;
+    height: 40px;
+    border: 1px solid #c8c8c8;
+    position: absolute;
+    top:101px;
+    left: 241px;
+}
+.elec_page_form #patronymic_style{
+    width: 78px;
+    height: 12px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    top: 160px;
+    left: 0px;
+}
+.elec_page_form #patronymic{
+    width: 210px;
+    height: 40px;
+    border: 1px solid #c8c8c8;
+    position: absolute;
+    top:181px;
+    left: 1px;
+}
+.elec_page_form #phone_style{
+    width: 78px;
+    height: 12px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    top: 160px;
+    left: 241px;
+}
+.elec_page_form #phone{
+    width: 210px;
+    height: 40px;
+    border: 1px solid #c8c8c8;
+    position: absolute;
+    top:181px;
+    left: 241px;
+}
+.elec_page_form #messages_style{
+    width: 80px;
+    height: 14px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: 240px;
+    left: 0px;
+}
+.elec_page_form #messages{
+    width: 450px;
+    height: 100px;
+    border: 1px solid #c8c8c8;
+    position: absolute;
+    top:261px;
+    left: 0px;
+}
+.elec_page_form input[type=submit]{
+    width: 152px;
+    height: 50px;
+    border: 1px solid #6deca7;
+    background-color: white;
+    position: absolute;
+    top: 391px;
+    left: 0px;
+    transition: background-color .6s;
+}
+.elec_page_form input[type=submit]:hover{
+    background-color: seagreen;
+}
+/*Contacts page style*/
+.contacts_page_background{
+    width: 1920px;
+    height: 800px;
+    background-image: url("pics/oboi-na-stol.com-209639-peyzazhi-pole-doroga-raps-nebo-oblaka-dal.jpg");
+    filter:blur(5px);
+    background-size: cover;
+}
+.contacts_page_white{
+    width: 1110px;
+    height: 495px;
+    background-color: #fdfdfd;
+    position: absolute;
+    /*top: 265px;*/
+    top: 255px;
+    left: 405px;
+}
+.contacts_page_bread_crumbs{
+    width:98px;
+    height:13px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    /* Text style for "Главная" */
+    letter-spacing: 0.4px;
+    position: absolute;
+    /*top: 40px;*/
+    top:30px;
+    left: 65px;
+    float: left;
+}
+.contacts_page_bread_crumbs i{
+    padding-left: 16px;
+}
+.contacts_page_bread_crumbs a {
+    text-decoration: none;
+    color: #000;
+}
+.contacts_page_header_text{
+    width: 133px;
+    height: 19px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 62px;
+    left: 65px;
+}
+.contacts_page_gos_name{
+    width: 658px;
+    height: 52px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    top: 124px;
+    left: 256px;
+    text-align: center;
+}
+.contacts_page_address{
+    width: 48px;
+    height: 14px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 207px;
+    left: 65px;
+}
+.contacts_page_address_street{
+    width: 300px;
+    height: 32px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    position: absolute;
+    top: 237px;
+    left: 65px;
+    padding-top: 16px;
+}
+.contacts_page_bank{
+    width: 196px;
+    height: 11px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 305px;
+    left: 67px;
+}
+.contacts_page_bank_numbers{
+    width: 500px;
+    height: 110px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "код:" */
+    text-transform: uppercase;
+    position: absolute;
+    top: 335px;
+    left: 65px;
+    padding-top: 19px;
+}
+.contacts_page_phone{
+    width: 80px;
+    height: 11px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 207px;
+    left: 634px;
+}
+.contacts_page_phone_numbers{
+    width: 242px;
+    height: 85px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "приемная:" */
+    text-transform: uppercase;
+    position: absolute;
+    top: 237px;
+    left: 634px;
+    padding-top: 19px;
+}
